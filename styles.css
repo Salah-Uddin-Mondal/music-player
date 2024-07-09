@@ -371,7 +371,7 @@ button:focus,
   max-width: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   }
   .seek_slider, .volume_slider {
@@ -395,4 +395,3 @@ button:focus,
   cursor: pointer;
   border-radius: 50%;
   }
-}
