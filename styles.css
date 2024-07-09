@@ -367,9 +367,10 @@ button:focus,
     text-align: center;
   }
   .slider_container {
-  width: 75%;
+  width: 100%;
   max-width: 400px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   }
