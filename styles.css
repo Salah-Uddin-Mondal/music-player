@@ -1,6 +1,6 @@
 :root {
   /* colors */
-  --primary-color: #013220;
+  --primary-color: #66ff00;
   --secondary-color: #CCDAD1;
   --app-background-color: #E0E6E2;
   --background-color: #333333;
@@ -368,10 +368,9 @@ button:focus,
   }
   .slider_container {
   width: 100%;
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  max-width: 600px;
+  display: block;
+  
   align-items: center;
   }
   .seek_slider, .volume_slider {
