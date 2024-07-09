@@ -1,10 +1,10 @@
 :root {
   /* colors */
   --primary-color: #b3b3ff;
-  --secondary-color: #26734d;
+  --secondary-color: #c4edd8;
   --app-background-color: #4f6356;
   --background-color: #333333;
-  --foreground-color: #8080FF;
+  --foreground-color: #ccccff;
   --highlight-color: #1f184e;
 
   /* font sizes */
