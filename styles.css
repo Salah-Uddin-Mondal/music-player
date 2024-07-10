@@ -371,17 +371,30 @@ button:focus,
     width: 100%;
     margin: 10px auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: var(--foreground-color);
+    fill: var(--background-color);
 }
 
-  .seeker,
+.seeker {
+  width: 90%;
+    height: 10px;
+    appearance: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--foreground-color);
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+  
 .volume {
     width: 90%;
     height: 10px;
     appearance: none;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     background-color: var(--foreground-color);
     border: none;
     outline: none;
