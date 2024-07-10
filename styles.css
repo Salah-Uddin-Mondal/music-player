@@ -2,7 +2,7 @@
   /* colors */
   --primary-color: #4d4dff;
   --secondary-color: #595959;
-  --app-background-color: #4f6356;
+  --app-background-color: #a9a9a9;
   --background-color: #333333;
   --foreground-color: #9999ff;
   --highlight-color: #958adb;
@@ -368,33 +368,20 @@ button:focus,
   }
  
   .slider-box {
-    width: 100%;
-    margin: 10px auto;
+    width: 80%;
+    margin: 20px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: var(--foreground-color);
-    fill: var(--background-color);
 }
 
-.seeker {
-  width: 90%;
-    height: 10px;
-    appearance: none;
-    display: flex;
-    justify-content: space-between;
-    background-color: var(--foreground-color);
-    border: none;
-    outline: none;
-    margin-top: 10px;
-}
-
-  
+  .seeker,
 .volume {
-    width: 90%;
+    width: 80%;
     height: 10px;
     appearance: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: var(--foreground-color);
     border: none;
     outline: none;
