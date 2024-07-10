@@ -305,3 +305,12 @@ audio.addEventListener("play", () => {
   }
 });
 
+audio.addEventListener('timeupdate', () => {
+  const currentTime = audio.currentTime;
+  const duration = audio.duration;
+
+  const progressPercent = (currentTime / duration) * 100;
+
+  seeker.value = progressPercent;
+});
+
