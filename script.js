@@ -11,7 +11,7 @@ const allSongs = [
     title: "Stronger",
     artist: "Alan Špiljak",
     duration: "1:48",
-    src: "https://freesound.org/people/GregorQuendel/sounds/710283/download/710283__gregorquendel__bach-invention-no-13-in-a-minor-bwv-784-arr.wav?raw=true",
+    src: "https://freesound.org/people/GregorQuendel/sounds/731963/download/731963__gregorquendel__chopin-prelude-no.mp3",
   },
   {
     id: 1,
