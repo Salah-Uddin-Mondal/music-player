@@ -269,7 +269,7 @@ button:focus,
 
 @media (max-width: 700px) {
   .player,
-  .playlist {
+  .playlist, .slider-box {
     width: 300px;
   }
 
@@ -366,4 +366,54 @@ button:focus,
     justify-content: space-between;
     text-align: center;
   }
+ 
+  .slider-box {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    background-color: var(--foreground-color);
+}
+
+  .seeker,
+.volume {
+    width: 200%;
+    height: 5px;
+    appearance: none;
+    display: flex;
+    justify-content: end;
+    background-color: var(--foreground-color);
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+.seeker::-webkit-slider-thumb,
+.volume::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background-color: var(--foreground-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.volume::-webkit-slider-thumb {
+    background-color: var(--background-color);
+}
+
+
+.seeker::-webkit-slider-runnable-track,
+.volume::-webkit-slider-runnable-track {
+    background-color: var(--background-color);
+}
+
+.seeker::-moz-range-track,
+.volume::-moz-range-track {
+    background: var(--background-color);
+    border: none;
+}
+
   
+}
