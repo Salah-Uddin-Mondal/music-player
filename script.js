@@ -11,7 +11,7 @@ const allSongs = [
     title: "Stronger",
     artist: "Alan Špiljak",
     duration: "1:48",
-    src: "../src/Alan_Spiljak_-_09_-_Stronger.mp3?raw=true",
+    src: "../src/Stronger.mp3?raw=true",
   },
   {
     id: 1,
@@ -39,7 +39,7 @@ const allSongs = [
     title: "Sun",
     artist: "Alan Špiljak",
     duration: "3:11",
-    src: "../src/Alan_Spiljak_-_10_-_Sun.mp3?raw=true",
+    src: "../src/Sun.mp3?raw=true",
   },
   {
     id: 5,
@@ -74,7 +74,7 @@ const allSongs = [
     title: "Time",
     artist: "Alan Špiljak",
     duration: "2:37",
-    src: "../src/Alan_Spiljak_-_01_-_Time.mp3?raw=true",
+    src: "../src/Time.mp3?raw=true",
   },
 ];
 
