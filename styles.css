@@ -390,6 +390,7 @@ button:focus,
 
 .seeker::-webkit-slider-thumb,
 .volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
     appearance: none;
     width: 12px;
     height: 12px;
@@ -397,12 +398,6 @@ button:focus,
     border-radius: 50%;
     cursor: pointer;
 }
-
-
-.volume::-webkit-slider-thumb {
-    background-color: var(--background-color);
-}
-
 
 .seeker::-webkit-slider-runnable-track,
 .volume::-webkit-slider-runnable-track {
