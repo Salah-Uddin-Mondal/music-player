@@ -285,3 +285,23 @@ const sortSongs = () => {
 renderSongs(sortSongs());
 setPlayButtonAccessibleText();
 
+const seeker = document.getElementById("seeker");
+const volume = document.getElementById("volume");
+
+
+seeker.addEventListener("input", () => {
+    const seekTime = (audio.duration * seeker.value) / 100;
+    audio.currentTime = seekTime;
+});
+
+volume.addEventListener("input", () => {
+    const volumeValue = volume.value / 100;
+    audio.volume = volumeValue;
+});
+
+audio.addEventListener("play", () => {
+  if (audio.currentTime === 0) {
+      seeker.value = 0;
+  }
+});
+
