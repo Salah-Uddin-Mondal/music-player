@@ -377,8 +377,8 @@ button:focus,
 
   .seeker,
 .volume {
-    width: 200%;
-    height: 5px;
+    width: 90%;
+    height: 10px;
     appearance: none;
     display: flex;
     justify-content: end;
@@ -406,6 +406,7 @@ button:focus,
 
 .seeker::-webkit-slider-runnable-track,
 .volume::-webkit-slider-runnable-track {
+    width: 100%;
     background-color: var(--background-color);
 }
 
