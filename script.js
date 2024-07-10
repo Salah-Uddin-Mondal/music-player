@@ -11,14 +11,14 @@ const allSongs = [
     title: "Stronger",
     artist: "Alan Špiljak",
     duration: "1:48",
-    src: "../src/Stronger.mp3",
+    src: "https://cdn.jsdelivr.net/gh/Salah-Uddin-Mondal/music-player/src/Stronger.mp3",
   },
   {
     id: 1,
     title: "Not The End",
     artist: "Alan Špiljak",
     duration: "2:14",
-    src: "../src/Not_the_end.mp3",
+    src: "https://cdn.jsdelivr.net/gh/Salah-Uddin-Mondal/music-player/src/Not_the_end.mp3",
   },
   {
     id: 2,
