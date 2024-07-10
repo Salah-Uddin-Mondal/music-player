@@ -74,7 +74,7 @@ const allSongs = [
     title: "Time",
     artist: "Alan Špiljak",
     duration: "2:37",
-    src: "./src/Alan_Spiljak_-_01_-_Time.mp3?raw=true",
+    src: "https://raw.githubusercontent.com/salah-uddin-mondal/music-player/main/src/Alan_Spiljak_-_01_-_Time.mp3?raw=true",
   },
 ];
 
